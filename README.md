@@ -1,7 +1,6 @@
 # Hive In Flutter 
 Made for Zemin Istanbul Presantation
 
-## Localization aka l10n
 Basically, the application saves the basic data types and custom generated data classes to the local storage.
 
 ## Getting Started
