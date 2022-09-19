@@ -1,0 +1,1 @@
+enum CacheBoxNames { auth, todo }

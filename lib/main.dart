@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'product/auth/auth_view.dart';
+import 'package:hive_flutter/adapters.dart';
+import 'package:zemin_istanbul_hive_app/product/todo/todo_view.dart';
 
 Future<void> main() async {
+  await Hive.initFlutter();
   runApp(const MyApp());
 }
 
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Hive App',
       theme: ThemeData.dark(),
-      home: const AuthView(),
+      home: const TodoView(),
     );
   }
 }
